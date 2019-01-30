@@ -1,0 +1,35 @@
+<div class="container-fluid" id="navmenu">
+  <div class="row">
+    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="'/dashboard'">
+              <span data-feather="home"></span>
+              Dashboard <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+
+            <a class="nav-link" [routerLink]="'/offerings'">
+              <span data-feather="file"></span>
+              Offerings
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/transactions'">
+              <span data-feather="shopping-cart"></span>
+              Transactions
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/settings'">
+              <span data-feather="users"></span>
+              Settings
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
