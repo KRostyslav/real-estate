@@ -1,9 +1,8 @@
-<h1>  offerings works! </h1>
-
-<fx-main-info-block></fx-main-info-block>
-
-<fx-info-block></fx-info-block>
-<fx-info-block></fx-info-block>
-<fx-info-block></fx-info-block>
-<fx-info-block></fx-info-block>
-
+<div class="container">
+  <div class="row">
+    <fx-main-info-block class="col-12" [building]="mainBuilding"></fx-main-info-block>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4" *ngFor="let building of buildingList; let i = index">
+      <fx-info-block [building]="building"></fx-info-block>
+    </div>
+  </div>
+</div>
