@@ -20,16 +20,15 @@ export class OfferingsComponent implements OnInit {
 
   public getData(): void {
     this.httpService.getAllBuildingd().subscribe(( response ) => {
-      console.log('res :: ', response);
       this.mainBuilding = response[ 0 ];
       this.buildingList = response;
       this.buildingList.splice(0, 1);
-
-      console.log('res1 :: ', this.buildingList);
-    }, ( error ) => {
+      }, ( error ) => {
       console.log('Error :: ', error);
     });
   }
+
+
 
   // mystring = mystring.replace(/\/r/g, '/');
 

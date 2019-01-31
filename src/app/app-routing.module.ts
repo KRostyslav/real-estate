@@ -5,6 +5,11 @@ import {NotFoundComponent} from './shared/components/not-found/not-found.compone
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: '/dashboard',
+    pathMatch: 'full'
+  },
+  {
     path: 'dashboard',
     loadChildren: './modules/dashboard/dashboard.module#DashboardModule'
   },

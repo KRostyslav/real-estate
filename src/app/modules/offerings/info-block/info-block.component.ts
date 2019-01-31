@@ -12,9 +12,10 @@ export class InfoBlockComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.building);
-
-    // this.building.mainPhoto.url = this.building.mainPhoto.url.replace(/\\\//g, '/');
+    this.converPhotoUrl();
   }
 
+  public converPhotoUrl(): void {
+    this.building.mainPhoto.url = this.building.mainPhoto.url.replace(/\\\//g, '/');
+  }
 }
