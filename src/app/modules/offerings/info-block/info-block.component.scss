@@ -1,0 +1,21 @@
+.block__info-block{
+  height: auto;
+  background-color: white;
+  border: gray 1px solid;
+  padding: 10px 0;
+  margin-bottom: 10px;
+
+  .block__info-block__image{
+    display: block;
+    height: 200px;
+    width: auto;
+    border: 1px black solid;
+  }
+  .block__button{
+
+    button{
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

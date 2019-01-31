@@ -1,5 +1,46 @@
-<div class="container">
-  <div class="row">
-    <h1>AAAAA</h1>
+<div class="block__info-block">
+  <div class="container">
+
+    <h4>{{building?.name}}</h4>
+    <p>{{building?.address}}, {{building?.district}}</p>
+    <img class="block__info-block__image" src="{{building?.mainPhoto?.url}}" alt="">
+    <table class="table">
+
+      <tbody>
+      <tr>
+        <td>Available to invest</td>
+        <td>{{building?.financial?.available_to_invest}}</td>
+      </tr>
+      <tr>
+        <td>Purchase Cost</td>
+        <td>???</td>
+      </tr>
+      <tr>
+        <td>Min Investment</td>
+        <td>{{building?.financial?.minimum_investment}}</td>
+      </tr>
+      <tr>
+        <td>Investment type</td>
+        <td>{{building?.type}}</td>
+      </tr>
+      <tr>
+        <td>Moratge (LTV)</td>
+        <td>???</td>
+      </tr>
+      <tr>
+        <td>Holding Period</td>
+        <td>{{building?.financial?.holding_period}}</td>
+      </tr>
+      <tr>
+        <td>Expect return on Equity</td>
+        <td>???</td>
+      </tr>
+      </tbody>
+    </table>
+    <div class="block__button">
+      <button *ngIf="building.financial.available_to_invest===0" class="btn btn-primary">MORE DETAILS</button>
+      <button *ngIf="building.financial.available_to_invest>0" class="btn btn-success">PRE-SUBCRIBE</button>
+    </div>
+
   </div>
 </div>
