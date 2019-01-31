@@ -6,7 +6,8 @@ import {AppComponent} from './app.component';
 import {NavbarComponent} from './shared/components/navbar/navbar.component';
 import {NavmenuComponent} from './shared/components/navmenu/navmenu.component';
 import {NotFoundComponent} from './shared/components/not-found/not-found.component';
-import {HttpClientModule} from '@angular/common/http';
+import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
+import {InterceptService} from './services/intercept-service.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,12 @@ import {HttpClientModule} from '@angular/common/http';
     HttpClientModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [InterceptService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: InterceptService,
+      multi: true
+    }],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {
