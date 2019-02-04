@@ -1,37 +1,35 @@
-<div class="block__main-manu" >
-  <!--<div class="row">-->
-    <!--<nav class="navbar col-md-2 d-md-block bg-light sidebar">-->
-      <!--<div class="collapse navbar-collapse">-->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link active" [routerLink]="'/dashboard'">
-              <span data-feather="home"></span>
-              Dashboard <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
+<div class="block__main-manu">
+  <ul class="nav nav-pills nav-stacked">
+    <li class="nav-item">
+      <img class="block__brand-image" src="./../../../../assets/images/logo_brand.jpg" alt="Logo Brand FoxStone">
+    </li>
 
-            <a class="nav-link" [routerLink]="'/offerings'">
-              <span data-feather="file"></span>
-              Offerings
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" [routerLink]="'/transactions'">
-              <span data-feather="shopping-cart"></span>
-              Transactions
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" [routerLink]="'/settings'">
-              <span data-feather="users"></span>
-              Settings
-            </a>
-          </li>
-        </ul>
-      <!--</div>-->
-    <!--</nav>-->
-  <!--</div>-->
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="'/dashboard'">
+        <span data-feather="home"><i class="fa fa-tachometer" aria-hidden="true"></i></span>
+        Dashboard <span class="sr-only">(current)</span>
+      </a>
+    </li>
+    <li class="nav-item">
+
+      <a class="nav-link" [routerLink]="'/offerings'">
+        <span data-feather="file"><i class="fa fa-building" aria-hidden="true"></i></span>
+        Offerings
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="'/transactions'">
+        <span data-feather="shopping-cart"><i class="fa fa-exchange" aria-hidden="true"></i></span>
+        Transactions
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="'/settings'">
+        <span data-feather="users"><i class="fa fa-cogs" aria-hidden="true"></i></span>
+        Settings
+      </a>
+    </li>
+  </ul>
 </div>
 
 

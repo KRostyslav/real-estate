@@ -11,18 +11,22 @@ const routes: Routes = [
   },
   {
     path: 'dashboard',
+    data: {title: 'Dashboard'},
     loadChildren: './modules/dashboard/dashboard.module#DashboardModule'
   },
   {
     path: 'offerings',
+    data: {title: 'Offering'},
     loadChildren: './modules/offerings/offerings.module#OfferingsModule'
   },
   {
     path: 'transactions',
+    data: {title: 'Transations'},
     loadChildren: './modules/transactions/transactions.module#TransactionsModule'
   },
   {
     path: 'settings',
+    data: {title: 'Settings'},
     loadChildren: './modules/settings/settings.module#SettingsModule'
   },
   {

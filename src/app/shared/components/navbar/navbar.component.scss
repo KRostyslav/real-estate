@@ -1,0 +1,10 @@
+.block__navbar{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  #block__title-page{
+    margin: 5px 20px;
+    color: gray;
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  padding: 0;
+  .row {
+    margin: 0;
+    .main-block,
+    .second-block {
+      margin-top: 15px;
+      //margin: 20px 20px 0 20px;
+    }
+  }
+}
+

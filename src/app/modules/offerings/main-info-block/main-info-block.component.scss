@@ -1,9 +1,8 @@
-.block__main-building{
+.block__main-building {
   width: 100%;
   border: 1px solid gray;
-  margin-bottom: 10px;
 
-  .block__info-block__image{
+  .block__info-block__image {
     margin-top: 10px;
     display: block;
     height: 200px;
@@ -11,9 +10,9 @@
     border: 1px black solid;
   }
 
-  .block__button{
+  .block__button {
 
-    button{
+    button {
       display: block;
       margin: 0 auto 10px;
     }

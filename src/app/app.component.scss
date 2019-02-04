@@ -1,20 +1,32 @@
+@import "./../assets/styles/variable";
+
 body {
   font-size: .875rem;
-  background-color: lightgrey;
+  padding: 0;
 }
 
-.block__page{
+.block__page {
   display: flex;
   flex-direction: row;
-  #navmenu{
-    position: relative;
-    top: 70px;
-    display: block;
+  height: calc(100vh);
+  &.row{
+    margin: 0;
   }
 
-  #main-block{
+  #navmenu {
     position: relative;
-    top: 70px;
     display: block;
+    background-color: $backgroud-color-menu;
+    max-height: 100%;
+    &.order-first{
+      padding: 0;
+    }
+  }
+
+  #main-block {
+    position: relative;
+    display: block;
+    padding: 0;
+    background-color: $background-body;
   }
 }

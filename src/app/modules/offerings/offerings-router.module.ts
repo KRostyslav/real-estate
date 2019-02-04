@@ -6,7 +6,8 @@ import {OfferingsComponent} from './offerings.component';
 const routes: Routes = [
   {
     path: '',
-    component: OfferingsComponent
+    component: OfferingsComponent,
+    // data: { title: 'Offerrings' }
   }
 ];
 

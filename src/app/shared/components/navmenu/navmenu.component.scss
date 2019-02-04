@@ -1,7 +1,25 @@
-.block__main-manu{
-  li{
-    a{
-      margin-left: 20px;
+@import "./../../../../assets/styles/variable";
+
+.block__main-manu {
+  ul {
+    //border-bottom: 1px dotted white;
+    li {
+      width: 100%;
+      border-bottom: 1px dotted white;
+      img {
+        &.block__brand-image {
+          display: block;
+          margin: 0 auto;
+          width: 100%;
+          max-width: 190px;
+        }
+      }
+
+      a {
+        color: white;
+        margin-left: 20px;
+      }
+
     }
   }
 }
