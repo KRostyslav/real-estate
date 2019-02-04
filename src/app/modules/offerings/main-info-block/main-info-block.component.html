@@ -15,7 +15,7 @@
         <div class="col-lg-6 col-sm-12 col-12">
           <div class="row">
             <div class="col-6">Purchase Cost</div>
-            <div class="col-6">???</div>
+            <div class="col-6">No data</div>
           </div>
           <div class="row">
             <div class="col-6">Min Investment</div>
@@ -29,21 +29,21 @@
         <div class="col-lg-6 col-sm-12 col-12">
           <div class="row">
             <div class="col-6">Moratge (LTV)</div>
-            <div class="col-6">???</div>
+            <div class="col-6">No data</div>
           </div>
           <div class="row">
             <div class="col-6">Holding Period</div>
             <div class="col-6">{{building?.financial?.holding_period}}</div>
           </div>
           <div class="row">
-            <div class="col-6">Expect return on Equity</div>
-            <div class="col-6">???</div>
+            <div class="col-6"><p>Expect return on Equity</p></div>
+            <div class="col-6"><p>No data</p></div>
           </div>
         </div>
       </div>
       <div class="block__button">
-        <button *ngIf="building.financial.available_to_invest===0" class="btn btn-primary">MORE DETAILS</button>
-        <button *ngIf="building.financial.available_to_invest>0" class="btn btn-success">PRE-SUBCRIBE</button>
+        <button *ngIf="building.financial.available_to_invest===0" class="button-orange">MORE DETAILS</button>
+        <button *ngIf="building.financial.available_to_invest>0" class="button-green">PRE-SUBCRIBE</button>
       </div>
 
     </div>

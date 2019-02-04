@@ -4,42 +4,39 @@
     <h4>{{building?.name}}</h4>
     <p>{{building?.address}}, {{building?.district}}</p>
     <img class="block__info-block__image" src="{{building?.mainPhoto?.url}}" alt="">
-    <table class="table">
 
-      <tbody>
-      <tr>
-        <td>Available to invest</td>
-        <td>{{building?.financial?.available_to_invest}}</td>
-      </tr>
-      <tr>
-        <td>Purchase Cost</td>
-        <td>???</td>
-      </tr>
-      <tr>
-        <td>Min Investment</td>
-        <td>{{building?.financial?.minimum_investment}}</td>
-      </tr>
-      <tr>
-        <td>Investment type</td>
-        <td>{{building?.type}}</td>
-      </tr>
-      <tr>
-        <td>Moratge (LTV)</td>
-        <td>???</td>
-      </tr>
-      <tr>
-        <td>Holding Period</td>
-        <td>{{building?.financial?.holding_period}}</td>
-      </tr>
-      <tr>
-        <td>Expect return on Equity</td>
-        <td>???</td>
-      </tr>
-      </tbody>
-    </table>
+      <div class="row">
+        <div class="col-6">Available to invest</div>
+        <div class="col-6">{{building?.financial?.available_to_invest}}</div>
+      </div>
+      <div class="row">
+        <div class="col-6">Purchase Cost</div>
+        <div class="col-6">No data</div>
+      </div>
+      <div class="row">
+        <div class="col-6">Min Investment</div>
+        <div class="col-6">{{building?.financial?.minimum_investment}}</div>
+      </div>
+      <div class="row">
+        <div class="col-6">Investment type</div>
+        <div class="col-6">{{building?.type}}</div>
+      </div>
+      <div class="row">
+        <div class="col-6">Moratge (LTV)</div>
+        <div class="col-6">No data</div>
+      </div>
+      <div class="row">
+        <div class="col-6">Holding Period</div>
+        <div class="col-6">{{building?.financial?.holding_period}}</div>
+      </div>
+      <div class="row">
+        <div class="col-6">Expect return on Equity</div>
+        <div class="col-6">No data</div>
+      </div>
+
     <div class="block__button">
-      <button *ngIf="building.financial.available_to_invest===0" class="btn btn-primary">MORE DETAILS</button>
-      <button *ngIf="building.financial.available_to_invest>0" class="btn btn-success">PRE-SUBCRIBE</button>
+      <button *ngIf="building.financial.available_to_invest===0" class="button-orange">MORE DETAILS</button>
+      <button *ngIf="building.financial.available_to_invest>0" class="button-green">PRE-SUBCRIBE</button>
     </div>
 
   </div>

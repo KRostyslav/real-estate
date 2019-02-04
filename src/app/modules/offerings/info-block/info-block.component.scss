@@ -1,7 +1,9 @@
+@import './../../../../assets/styles/mixin.scss';
+
 .block__info-block{
   height: auto;
   background-color: white;
-  border: gray 1px solid;
+  border: 1px solid whitesmoke;
   padding: 10px 0;
   margin-bottom: 10px;
 
@@ -12,10 +14,11 @@
     border: 1px black solid;
   }
   .block__button{
-
-    button{
-      display: block;
-      margin: 0 auto;
+    .button-orange{
+      @include button-style(orange);
+    }
+    .button-green{
+      @include button-style(green);
     }
   }
 }

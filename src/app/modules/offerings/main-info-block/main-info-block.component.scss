@@ -1,6 +1,9 @@
+@import './../../../../assets/styles/mixin.scss';
+
 .block__main-building {
   width: 100%;
-  border: 1px solid gray;
+  background-color: white;
+  border: 1px solid whitesmoke;
 
   .block__info-block__image {
     margin-top: 10px;
@@ -10,12 +13,21 @@
     border: 1px black solid;
   }
 
-  .block__button {
-
-    button {
-      display: block;
-      margin: 0 auto 10px;
+  .col-6{
+    p{
+      font-size: 14px;
+      font-weight: 700;
     }
+  }
+
+  .block__button {
+    .button-orange{
+      @include button-style(orange);
+    }
+    .button-green{
+      @include button-style(green);
+    }
+
   }
 
 }
