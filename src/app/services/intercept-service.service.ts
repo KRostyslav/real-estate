@@ -24,13 +24,4 @@ export class InterceptService implements HttpInterceptor {
       );
   }
 
-  // public handleError( res: Response, url = null ) {
-  //   try {
-  //     this.errorDialogService.showErrorDialog(res[ 'error' ].message);
-  //   } catch (e) {
-  //     console.log('--- Error message on response --- ');
-  //   }
-  //   return res;
-  // }
-
 }

@@ -9,7 +9,6 @@ import {filter, map} from 'rxjs/operators';
 })
 export class NavbarComponent implements OnInit {
 
-  // route: string;
   title: string;
 
   constructor(private router: Router, private  route: ActivatedRoute ) {

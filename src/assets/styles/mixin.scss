@@ -8,6 +8,25 @@
   padding: 5px 40px;
 }
 
+@mixin block-details{
+  border-bottom: 1px whitesmoke solid;
+  margin: 5px 0;
+  .info-main-title{
+    padding: 0;
+  }
+  .info-main-detail{
+
+  }
+  .info-title{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0;
+  }
+  .info-detail{
+    font-size: 12px;
+  }
+}
+
 @mixin height-menu() {
 
   @media only screen and (min-width: 845px) {

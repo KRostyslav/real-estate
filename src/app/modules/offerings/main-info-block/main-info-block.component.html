@@ -1,54 +1,54 @@
 <div class="container block__main-building">
 
   <div class="row">
-    <div class="block__main-building__image col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="block__main-building__image col-lg-6 col-md-12 col-sm-12 col-12">
       <img class="block__info-block__image"
            src="{{building?.mainPhoto?.url}}"
            onError="this.src='./../assets/images/mock_image.png'"
            alt="">
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
       <div class="row block__info-block__header">
         <h4>{{building?.name}}</h4>
         <p>{{building?.address}}, {{building?.disdivict}}</p>
       </div>
-      <div class="row">
-        <div class="col-lg-6 col-sm-6 col-6">Available to invest</div>
-        <div class="col-lg-6 col-sm-6 col-6">{{building?.financial?.available_to_invest}}</div>
+      <div class="row block__short-info">
+        <div class="col-lg-6 col-sm-6 col-6 info-main-title">Available to invest</div>
+        <div class="col-lg-6 col-sm-6 col-6 info-main-detail">{{building?.financial?.available_to_invest}}</div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-sm-12 col-12">
-          <div class="row">
-            <div class="col-6">Purchase Cost</div>
-            <div class="col-6">No data</div>
+          <div class="row block__short-info">
+            <div class="col-6 info-title">Purchase Cost</div>
+            <div class="col-6 info-detail">No data</div>
           </div>
-          <div class="row">
-            <div class="col-6">Min Investment</div>
-            <div class="col-6">{{building?.financial?.minimum_investment}}</div>
+          <div class="row block__short-info">
+            <div class="col-6 info-title">Min Investment</div>
+            <div class="col-6 info-detail">{{building?.financial?.minimum_investment}}</div>
           </div>
-          <div class="row">
-            <div class="col-6">Investment type</div>
-            <div class="col-6">{{building?.type}}</div>
+          <div class="row block__short-info">
+            <div class="col-6 info-title">Investment type</div>
+            <div class="col-6 info-detail">{{building?.type}}</div>
           </div>
         </div>
         <div class="col-lg-6 col-sm-12 col-12">
-          <div class="row">
-            <div class="col-6">Moratge (LTV)</div>
-            <div class="col-6">No data</div>
+          <div class="row block__short-info">
+            <div class="col-6 info-title">Moratge (LTV)</div>
+            <div class="col-6 info-detail">No data</div>
           </div>
-          <div class="row">
-            <div class="col-6">Holding Period</div>
-            <div class="col-6">{{building?.financial?.holding_period}}</div>
+          <div class="row block__short-info">
+            <div class="col-6 info-title">Holding Period</div>
+            <div class="col-6 info-detail">{{building?.financial?.holding_period}}</div>
           </div>
-          <div class="row">
-            <div class="col-6"><p>Expect return on Equity</p></div>
-            <div class="col-6"><p>No data</p></div>
+          <div class="row block__short-info">
+            <div class="col-6 info-title">Expect return on Equity</div>
+            <div class="col-6 info-detail">No data</div>
           </div>
         </div>
       </div>
       <div class="block__button">
-        <button *ngIf="building.financial.available_to_invest===0" class="button-orange">MORE DETAILS</button>
-        <button *ngIf="building.financial.available_to_invest>0" class="button-green">PRE-SUBCRIBE</button>
+        <button *ngIf="building?.financial.available_to_invest===0" class="button-orange">MORE DETAILS</button>
+        <button *ngIf="building?.financial.available_to_invest>0" class="button-green">PRE-SUBCRIBE</button>
       </div>
 
     </div>
