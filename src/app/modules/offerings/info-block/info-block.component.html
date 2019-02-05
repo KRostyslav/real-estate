@@ -1,38 +1,43 @@
 <div class="block__info-block">
   <div class="container">
-
-    <h4>{{building?.name}}</h4>
-    <p>{{building?.address}}, {{building?.district}}</p>
-    <img class="block__info-block__image" src="{{building?.mainPhoto?.url}}" alt="">
-
-      <div class="row">
-        <div class="col-6">Available to invest</div>
-        <div class="col-6">{{building?.financial?.available_to_invest}}</div>
-      </div>
-      <div class="row">
-        <div class="col-6">Purchase Cost</div>
-        <div class="col-6">No data</div>
-      </div>
-      <div class="row">
-        <div class="col-6">Min Investment</div>
-        <div class="col-6">{{building?.financial?.minimum_investment}}</div>
-      </div>
-      <div class="row">
-        <div class="col-6">Investment type</div>
-        <div class="col-6">{{building?.type}}</div>
-      </div>
-      <div class="row">
-        <div class="col-6">Moratge (LTV)</div>
-        <div class="col-6">No data</div>
-      </div>
-      <div class="row">
-        <div class="col-6">Holding Period</div>
-        <div class="col-6">{{building?.financial?.holding_period}}</div>
-      </div>
-      <div class="row">
-        <div class="col-6">Expect return on Equity</div>
-        <div class="col-6">No data</div>
-      </div>
+    <div class="row block__info-block__header">
+      <h5 align="center">{{building?.name}}</h5>
+      <p>{{building?.address}}, {{building?.district}}</p>
+    </div>
+    <div class="row">
+      <img class="block__info-block__image"
+           src="{{building?.mainPhoto?.url}}"
+           onError="this.src='./../assets/images/mock_image.png'"
+           alt="">
+    </div>
+    <div class="row">
+      <div class="col-6">Available to invest</div>
+      <div class="col-6">{{building?.financial?.available_to_invest}}</div>
+    </div>
+    <div class="row">
+      <div class="col-6">Purchase Cost</div>
+      <div class="col-6">No data</div>
+    </div>
+    <div class="row">
+      <div class="col-6">Min Investment</div>
+      <div class="col-6">{{building?.financial?.minimum_investment}}</div>
+    </div>
+    <div class="row">
+      <div class="col-6">Investment type</div>
+      <div class="col-6">{{building?.type}}</div>
+    </div>
+    <div class="row">
+      <div class="col-6">Moratge (LTV)</div>
+      <div class="col-6">No data</div>
+    </div>
+    <div class="row">
+      <div class="col-6">Holding Period</div>
+      <div class="col-6">{{building?.financial?.holding_period}}</div>
+    </div>
+    <div class="row">
+      <div class="col-6">Expect return on Equity</div>
+      <div class="col-6">No data</div>
+    </div>
 
     <div class="block__button">
       <button *ngIf="building.financial.available_to_invest===0" class="button-orange">MORE DETAILS</button>

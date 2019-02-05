@@ -20,7 +20,6 @@ export class OfferingsComponent implements OnInit {
 
   public getData(): void {
     this.httpService.getAllBuildingd().subscribe(( response ) => {
-      console.log('!!!', response);
       this.mainBuilding = response[ 0 ];
       this.buildingList = response;
       this.buildingList.splice(0, 1);
@@ -28,9 +27,5 @@ export class OfferingsComponent implements OnInit {
       console.log('Error :: ', error);
     });
   }
-
-
-
-  // mystring = mystring.replace(/\/r/g, '/');
 
 }

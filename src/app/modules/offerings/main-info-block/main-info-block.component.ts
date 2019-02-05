@@ -13,4 +13,5 @@ export class MainInfoBlockComponent implements OnInit {
   ngOnInit() {
   }
 
+
 }

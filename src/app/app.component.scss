@@ -1,4 +1,6 @@
 @import "./../assets/styles/variable";
+@import "./../assets/styles/mixin";
+
 
 body {
   font-size: .875rem;
@@ -8,7 +10,6 @@ body {
 .block__page {
   display: flex;
   flex-direction: row;
-  height: calc(100vh);
   &.row{
     margin: 0;
   }
@@ -17,7 +18,7 @@ body {
     position: relative;
     display: block;
     background-color: $backgroud-color-menu;
-    max-height: 100%;
+    @include height-menu();
     &.order-first{
       padding: 0;
     }

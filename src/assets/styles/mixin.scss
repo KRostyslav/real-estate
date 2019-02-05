@@ -7,3 +7,32 @@
   color: white;
   padding: 5px 40px;
 }
+
+@mixin height-menu() {
+
+  @media only screen and (min-width: 845px) {
+    min-height: calc(100vh);
+    height: auto;
+  }
+
+  @media only (max-width: 845px) {
+    min-height: calc(30vh);
+  }
+}
+
+
+@mixin grid-blocks() {
+
+  @media only screen and (min-width: 845px) {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  @media only (max-width: 845px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+}

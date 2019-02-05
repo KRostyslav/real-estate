@@ -1,12 +1,17 @@
 <div class="container block__main-building">
 
   <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-      <img class="block__info-block__image" src="{{building?.mainPhoto?.url}}" alt="">
+    <div class="block__main-building__image col-lg-6 col-md-6 col-sm-12 col-12">
+      <img class="block__info-block__image"
+           src="{{building?.mainPhoto?.url}}"
+           onError="this.src='./../assets/images/mock_image.png'"
+           alt="">
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-      <h3>{{building?.name}}</h3>
-      <p>{{building?.address}}, {{building?.disdivict}}</p>
+      <div class="row block__info-block__header">
+        <h4>{{building?.name}}</h4>
+        <p>{{building?.address}}, {{building?.disdivict}}</p>
+      </div>
       <div class="row">
         <div class="col-lg-6 col-sm-6 col-6">Available to invest</div>
         <div class="col-lg-6 col-sm-6 col-6">{{building?.financial?.available_to_invest}}</div>

@@ -1,9 +1,11 @@
 <div class="container">
   <div class="row">
     <fx-main-info-block class="main-block col-12" [building]="mainBuilding"></fx-main-info-block>
-    <div class="second-block col-12 col-sm-12 col-md-6 col-lg-4"
-         *ngFor="let building of buildingList; let i = index">
-      <fx-info-block [building]="building"></fx-info-block>
+    <div class="block__second-blocks">
+      <div class="second-block "
+           *ngFor="let building of buildingList; let i = index">
+        <fx-info-block [building]="building"></fx-info-block>
+      </div>
     </div>
   </div>
 </div>
