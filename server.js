@@ -8,9 +8,19 @@ app.use(favicon(__dirname + '/dist/spaFaxstone/favicon.ico'));
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, 'dist/spaFaxstone')));
 
+const fs = require('fs');
+
+let rawdata = fs.readFileSync('mockdata.json');
+let building = JSON.parse(rawdata);
+
 app.get('/ping', function (req, res) {
     return res.send('pong');
 });
+
+app.get('/mock', function (req, res) {
+    return res.send(building);
+});
+
 app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'dist/spaFaxstone', 'index.html'));
 });

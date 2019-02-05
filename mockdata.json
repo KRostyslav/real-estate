@@ -1,0 +1,290 @@
+[
+  {
+    "id": "60aad2e4-f861-4988-9145-bdb99bbdd21e",
+    "nice_url": "louis-august",
+    "title": "Residential Building Lausanne",
+    "name": "Residential Building Lausanne",
+    "type": "co_ownership",
+    "category": [
+      "Residential"
+    ],
+    "label": [],
+    "address": "Avenue Robert de Menthon 14, 1005 Lausanne, , Vaud",
+    "district": "Lausanne city",
+    "address_object": {
+      "street": "Avenue Robert de Menthon 14",
+      "street2": "Rue Louis-Auguste-Curtat 7",
+      "zip": "1005",
+      "city": "Lausanne",
+      "district": null,
+      "canton": "Vaud",
+      "country": "ch"
+    },
+    "ending_date": "2019-03-31 00:00:00+01",
+    "maturity_date": "7",
+    "holding_period": null,
+    "status": "open",
+    "financial": {
+      "investment_goal": 1665000,
+      "available_to_invest": 1590000,
+      "market_value": 3500000,
+      "minimum_investment": 50000,
+      "maximum_investment": 830000,
+      "annual_yield_or_roi": 5,
+      "loan_to_value": 60,
+      "holding_period": "7",
+      "funded": 0,
+      "interest_rate": 0,
+      "rank": "",
+      "maturity": "7",
+      "increment": 25000,
+      "foxstone_fee": 113000,
+      "notary_fee": 152000,
+      "notary_organisation_id": "",
+      "bank_organisation_id": ""
+    },
+    "mainPhoto": {
+      "id": "4d291bbc-1308-4f37-944d-222fc4508ea7",
+      "url": "https:\\/\\/app.foxstone.ch\\/media_stream\\/4d291bbc-1308-4f37-944d-222fc4508ea7?jwt=Bearer%20eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE1NTAyNDY5MDgsInV1aWQiOiI0MGVhYTJkMS0wYzBhLTQyNWMtODNmMS0wYjEzNGQwYjc2ZjYiLCJuYW1lIjoiRGV2ZWxvcGVyIFRlc3QiLCJyb2xlIjoiYWRtaW4xIiwiYWRtaW4iOnRydWUsImxhbmciOiJlbiIsIm1hc3FfdXNlcl90b2tlbiI6IiJ9.PZReZv1Kl196owr-NrkN8SQaatuxaJXSiQ70RMojTQfOPLAr1qGuit0x02I5shsJqCuEdngs-TQw7ksVOaXp8ZqZkdbRp0zaNP6BKB6tUG2SkNney6pOPUlTgTRvkY5QCq7bV-Jf2nQ-ZSzgGxbsSYjFMDZSWpjrVHLsULzuajvOdyGWYx7__Mz4iHCyXMAMqxpDNHpUYEx5NSrOjyaNjbGUKGqidK-INwOSiHgDdmJGC7eVYuZnll3P8_XlHAnPtnSWASjJRiwwc__dtOJ522W48Pb3eLDbUh0qKOvIcI7Byatj53ihUl2iRS7AaGznJk3ACue-osIG4JO7Q6Hle1RicPOaRvTumwRMkMc2-pnGWAMgIYaJsf93CBd5crLCslWOk3NC6N5JS38Bf5SDIc6TKpvYj8Syq389jCzDxFznozOEjaLAGADt3FEWHPTbbYialybrirgEu75mNDfZ0Ud-ddyPeuVuSCivl8KiTkseKOE0pbXTxsdaVN-iXqZGZFIaYmUocmAN4K4LG3DB0xmaa75Q-oBHRBYTw0WOa7GICOa3cNtxSxKEb600Zx864uQTfo501KJ1El5WJ4lUi651ow2BXDkGhMOnydK8amN40WjdHCViXpFsAvTP-nkQwqhznu_Y7gdhBzuEoCCNFnJ7wjq1kFnESC1XVvToctA",
+      "title": "facade",
+      "index": 0,
+      "description": "",
+      "label_text": "",
+      "add_datetime": "2018-12-26T10:55:49+01:00",
+      "weight": 873105,
+      "media_type_id": "00000001-0000-4000-a000-000000000000",
+      "media_type": {
+        "id": "00000001-0000-4000-a000-000000000000",
+        "title": "Offering photos main",
+        "type": "",
+        "availability": [],
+        "scope": "",
+        "custom_id": "",
+        "is_visible": false,
+        "target": [
+          "offering.main_photo_media_id"
+        ]
+      }
+    },
+    "isFeatured": true,
+    "isArchived": false,
+    "isComingSoon": false,
+    "isPublish": true
+  },
+  {
+    "id": "04e20b7b-e4b1-4916-b642-5a25017dafb0",
+    "nice_url": "concise",
+    "title": "Residential Building in Concise",
+    "name": "Residential Building in Concise",
+    "type": "co_ownership",
+    "category": [
+      "Residential"
+    ],
+    "label": [],
+    "address": "En Chenaux 6, 1426 Concise, , Vaud",
+    "district": "Concise",
+    "address_object": {
+      "street": "En Chenaux 6",
+      "street2": "",
+      "zip": "1426",
+      "city": "Concise",
+      "district": "",
+      "canton": "Vaud",
+      "country": "ch"
+    },
+    "ending_date": "2018-08-31 00:00:00+02",
+    "maturity_date": "7 years",
+    "holding_period": null,
+    "status": "open",
+    "financial": {
+      "investment_goal": 3250000,
+      "available_to_invest": 375000,
+      "market_value": 6800000,
+      "minimum_investment": 50000,
+      "maximum_investment": 1500000,
+      "annual_yield_or_roi": 6.53,
+      "loan_to_value": 60.29,
+      "holding_period": "7 years",
+      "funded": 0,
+      "interest_rate": 0,
+      "rank": "",
+      "maturity": "7 years",
+      "increment": 25000,
+      "foxstone_fee": 0,
+      "notary_fee": 0,
+      "notary_organisation_id": "",
+      "bank_organisation_id": ""
+    },
+    "mainPhoto": {
+      "id": "e897b65c-3cfb-4b60-a59f-99ca82311b88",
+      "url": "https:\\/\\/app.foxstone.ch\\/media_stream\\/e897b65c-3cfb-4b60-a59f-99ca82311b88?jwt=Bearer%20eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE1NTAyNDY5MDgsInV1aWQiOiI0MGVhYTJkMS0wYzBhLTQyNWMtODNmMS0wYjEzNGQwYjc2ZjYiLCJuYW1lIjoiRGV2ZWxvcGVyIFRlc3QiLCJyb2xlIjoiYWRtaW4xIiwiYWRtaW4iOnRydWUsImxhbmciOiJlbiIsIm1hc3FfdXNlcl90b2tlbiI6IiJ9.PZReZv1Kl196owr-NrkN8SQaatuxaJXSiQ70RMojTQfOPLAr1qGuit0x02I5shsJqCuEdngs-TQw7ksVOaXp8ZqZkdbRp0zaNP6BKB6tUG2SkNney6pOPUlTgTRvkY5QCq7bV-Jf2nQ-ZSzgGxbsSYjFMDZSWpjrVHLsULzuajvOdyGWYx7__Mz4iHCyXMAMqxpDNHpUYEx5NSrOjyaNjbGUKGqidK-INwOSiHgDdmJGC7eVYuZnll3P8_XlHAnPtnSWASjJRiwwc__dtOJ522W48Pb3eLDbUh0qKOvIcI7Byatj53ihUl2iRS7AaGznJk3ACue-osIG4JO7Q6Hle1RicPOaRvTumwRMkMc2-pnGWAMgIYaJsf93CBd5crLCslWOk3NC6N5JS38Bf5SDIc6TKpvYj8Syq389jCzDxFznozOEjaLAGADt3FEWHPTbbYialybrirgEu75mNDfZ0Ud-ddyPeuVuSCivl8KiTkseKOE0pbXTxsdaVN-iXqZGZFIaYmUocmAN4K4LG3DB0xmaa75Q-oBHRBYTw0WOa7GICOa3cNtxSxKEb600Zx864uQTfo501KJ1El5WJ4lUi651ow2BXDkGhMOnydK8amN40WjdHCViXpFsAvTP-nkQwqhznu_Y7gdhBzuEoCCNFnJ7wjq1kFnESC1XVvToctA",
+      "title": "Fa\\u00e7ade Est",
+      "index": 0,
+      "description": "",
+      "label_text": "",
+      "add_datetime": "2018-08-06T11:26:09+02:00",
+      "weight": 0,
+      "media_type_id": "00000001-0000-4000-a000-000000000000",
+      "media_type": {
+        "id": "00000001-0000-4000-a000-000000000000",
+        "title": "Offering photos main",
+        "type": "",
+        "availability": [],
+        "scope": "",
+        "custom_id": "",
+        "is_visible": false,
+        "target": [
+          "offering.main_photo_media_id"
+        ]
+      }
+    },
+    "isFeatured": true,
+    "isArchived": false,
+    "isComingSoon": false,
+    "isPublish": true
+  },
+  {
+    "id": "f4e4e18b-7cc9-43a5-82eb-fdfaaf470a87",
+    "nice_url": "bussigny",
+    "title": "Residential Building",
+    "name": "Residential Building",
+    "type": "co_ownership",
+    "category": [
+      "Residential"
+    ],
+    "label": [],
+    "address": "Bussigny, 1030 Lausanne, , Vaud",
+    "district": "Bussigny",
+    "address_object": {
+      "street": "Bussigny",
+      "street2": null,
+      "zip": "1030",
+      "city": "Lausanne",
+      "district": null,
+      "canton": "Vaud",
+      "country": "ch"
+    },
+    "ending_date": "2018-10-31 01:00:00+01",
+    "maturity_date": "7",
+    "holding_period": null,
+    "status": "close",
+    "financial": {
+      "investment_goal": 500000,
+      "available_to_invest": 0,
+      "market_value": 1500000,
+      "minimum_investment": 50000,
+      "maximum_investment": 500000,
+      "annual_yield_or_roi": 5.75,
+      "loan_to_value": 66.67,
+      "holding_period": "7",
+      "funded": 0,
+      "interest_rate": 0,
+      "rank": "",
+      "maturity": "7",
+      "increment": 50000,
+      "foxstone_fee": 45000,
+      "notary_fee": 75000,
+      "notary_organisation_id": "",
+      "bank_organisation_id": ""
+    },
+    "mainPhoto": {
+      "id": "fab1ba33-12c6-4e33-be34-344adff9a8c0",
+      "url": "https:\\/\\/app.foxstone.ch\\/media_stream\\/fab1ba33-12c6-4e33-be34-344adff9a8c0?jwt=Bearer%20eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE1NTAyNDY5MDgsInV1aWQiOiI0MGVhYTJkMS0wYzBhLTQyNWMtODNmMS0wYjEzNGQwYjc2ZjYiLCJuYW1lIjoiRGV2ZWxvcGVyIFRlc3QiLCJyb2xlIjoiYWRtaW4xIiwiYWRtaW4iOnRydWUsImxhbmciOiJlbiIsIm1hc3FfdXNlcl90b2tlbiI6IiJ9.PZReZv1Kl196owr-NrkN8SQaatuxaJXSiQ70RMojTQfOPLAr1qGuit0x02I5shsJqCuEdngs-TQw7ksVOaXp8ZqZkdbRp0zaNP6BKB6tUG2SkNney6pOPUlTgTRvkY5QCq7bV-Jf2nQ-ZSzgGxbsSYjFMDZSWpjrVHLsULzuajvOdyGWYx7__Mz4iHCyXMAMqxpDNHpUYEx5NSrOjyaNjbGUKGqidK-INwOSiHgDdmJGC7eVYuZnll3P8_XlHAnPtnSWASjJRiwwc__dtOJ522W48Pb3eLDbUh0qKOvIcI7Byatj53ihUl2iRS7AaGznJk3ACue-osIG4JO7Q6Hle1RicPOaRvTumwRMkMc2-pnGWAMgIYaJsf93CBd5crLCslWOk3NC6N5JS38Bf5SDIc6TKpvYj8Syq389jCzDxFznozOEjaLAGADt3FEWHPTbbYialybrirgEu75mNDfZ0Ud-ddyPeuVuSCivl8KiTkseKOE0pbXTxsdaVN-iXqZGZFIaYmUocmAN4K4LG3DB0xmaa75Q-oBHRBYTw0WOa7GICOa3cNtxSxKEb600Zx864uQTfo501KJ1El5WJ4lUi651ow2BXDkGhMOnydK8amN40WjdHCViXpFsAvTP-nkQwqhznu_Y7gdhBzuEoCCNFnJ7wjq1kFnESC1XVvToctA",
+      "title": "Picture1.png",
+      "index": 0,
+      "description": "",
+      "label_text": "",
+      "add_datetime": "2018-10-23T15:56:43+02:00",
+      "weight": 314906,
+      "media_type_id": "00000001-0000-4000-a000-000000000000",
+      "media_type": {
+        "id": "00000001-0000-4000-a000-000000000000",
+        "title": "Offering photos main",
+        "type": "",
+        "availability": [],
+        "scope": "",
+        "custom_id": "",
+        "is_visible": false,
+        "target": [
+          "offering.main_photo_media_id"
+        ]
+      }
+    },
+    "isFeatured": false,
+    "isArchived": false,
+    "isComingSoon": false,
+    "isPublish": true
+  },
+  {
+    "id": "fb56c11f-07fc-40bc-a098-b4b6e4843b88",
+    "nice_url": "meyrin",
+    "title": "Residential building in Meyrin",
+    "name": "Residential building in Meyrin",
+    "type": "co_ownership",
+    "category": [
+      "Mixed Used"
+    ],
+    "label": [],
+    "address": "Meyrin, 1217 Meyrin, , Geneva",
+    "district": "Meyrin",
+    "address_object": {
+      "street": "Meyrin",
+      "street2": null,
+      "zip": "1217",
+      "city": "Meyrin",
+      "district": null,
+      "canton": "Geneva",
+      "country": "ch"
+    },
+    "ending_date": "2018-07-29 02:00:00+02",
+    "maturity_date": "7 years",
+    "holding_period": null,
+    "status": "close",
+    "financial": {
+      "investment_goal": 2250000,
+      "available_to_invest": 0,
+      "market_value": 5200000,
+      "minimum_investment": 50000,
+      "maximum_investment": 1000000,
+      "annual_yield_or_roi": 7.01,
+      "loan_to_value": 66.67,
+      "holding_period": "7 years",
+      "funded": 0,
+      "interest_rate": 0,
+      "rank": "",
+      "maturity": "7 years",
+      "increment": 10000,
+      "foxstone_fee": 0,
+      "notary_fee": 0,
+      "notary_organisation_id": "",
+      "bank_organisation_id": ""
+    },
+    "mainPhoto": {
+      "id": "f523d6ec-7dde-4490-8ba0-bc161f7b1ee1",
+      "url": "https:\\/\\/app.foxstone.ch\\/media_stream\\/f523d6ec-7dde-4490-8ba0-bc161f7b1ee1?jwt=Bearer%20eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE1NTAyNDY5MDgsInV1aWQiOiI0MGVhYTJkMS0wYzBhLTQyNWMtODNmMS0wYjEzNGQwYjc2ZjYiLCJuYW1lIjoiRGV2ZWxvcGVyIFRlc3QiLCJyb2xlIjoiYWRtaW4xIiwiYWRtaW4iOnRydWUsImxhbmciOiJlbiIsIm1hc3FfdXNlcl90b2tlbiI6IiJ9.PZReZv1Kl196owr-NrkN8SQaatuxaJXSiQ70RMojTQfOPLAr1qGuit0x02I5shsJqCuEdngs-TQw7ksVOaXp8ZqZkdbRp0zaNP6BKB6tUG2SkNney6pOPUlTgTRvkY5QCq7bV-Jf2nQ-ZSzgGxbsSYjFMDZSWpjrVHLsULzuajvOdyGWYx7__Mz4iHCyXMAMqxpDNHpUYEx5NSrOjyaNjbGUKGqidK-INwOSiHgDdmJGC7eVYuZnll3P8_XlHAnPtnSWASjJRiwwc__dtOJ522W48Pb3eLDbUh0qKOvIcI7Byatj53ihUl2iRS7AaGznJk3ACue-osIG4JO7Q6Hle1RicPOaRvTumwRMkMc2-pnGWAMgIYaJsf93CBd5crLCslWOk3NC6N5JS38Bf5SDIc6TKpvYj8Syq389jCzDxFznozOEjaLAGADt3FEWHPTbbYialybrirgEu75mNDfZ0Ud-ddyPeuVuSCivl8KiTkseKOE0pbXTxsdaVN-iXqZGZFIaYmUocmAN4K4LG3DB0xmaa75Q-oBHRBYTw0WOa7GICOa3cNtxSxKEb600Zx864uQTfo501KJ1El5WJ4lUi651ow2BXDkGhMOnydK8amN40WjdHCViXpFsAvTP-nkQwqhznu_Y7gdhBzuEoCCNFnJ7wjq1kFnESC1XVvToctA",
+      "title": "meyring-vendu.jpg",
+      "index": 999,
+      "description": "",
+      "label_text": "",
+      "add_datetime": "2018-08-13T15:06:35+02:00",
+      "weight": 0,
+      "media_type_id": "00000001-0000-4000-a000-000000000000",
+      "media_type": {
+        "id": "00000001-0000-4000-a000-000000000000",
+        "title": "Offering photos main",
+        "type": "",
+        "availability": [],
+        "scope": "",
+        "custom_id": "",
+        "is_visible": false,
+        "target": [
+          "offering.main_photo_media_id"
+        ]
+      }
+    },
+    "isFeatured": false,
+    "isArchived": false,
+    "isComingSoon": false,
+    "isPublish": true
+  }
+]
