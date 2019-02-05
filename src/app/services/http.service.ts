@@ -12,7 +12,8 @@ export class HttpService {
   constructor( private http: HttpClient ) { }
 
   public getAllBuildingd(): Observable<Building[]> {
-    return this.http.get<Building[]>(AppSettings.API_ENDPOINT + 'offerings');
+    // return this.http.get<Building[]>(AppSettings.MOCK_ENDPOINT + 'mock');
+    return this.http.get<Building[]>(AppSettings.MOCK_ENDPOINT + 'offerings');
   }
   
 }

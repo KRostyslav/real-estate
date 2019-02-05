@@ -17,7 +17,7 @@ app.get('/ping', function (req, res) {
     return res.send('pong');
 });
 
-app.get('/mock', function (req, res) {
+app.get('/api/offerings', function (req, res) {
     return res.send(building);
 });
 
