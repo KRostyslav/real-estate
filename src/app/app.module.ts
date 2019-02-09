@@ -8,6 +8,8 @@ import {NavmenuComponent} from './shared/components/navmenu/navmenu.component';
 import {NotFoundComponent} from './shared/components/not-found/not-found.component';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {InterceptService} from './services/intercept-service.service';
+import {ServiceWorkerModule} from '@angular/service-worker';
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,15 @@ import {InterceptService} from './services/intercept-service.service';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
   ],
-  providers: [InterceptService,
+  providers: [
+    InterceptService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: InterceptService,
       multi: true
-    }],
+    } ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {

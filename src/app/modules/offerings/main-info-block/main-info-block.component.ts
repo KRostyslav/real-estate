@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Building} from '../../../shared/models/building.model';
 
 @Component({
   selector: 'fx-main-info-block',

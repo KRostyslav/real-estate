@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 
 import {AppSettings} from '../shared/configs/AppSettings';
+import {Building} from '../shared/models/building.model';
 
 @Injectable({
   providedIn: 'root'

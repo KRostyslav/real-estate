@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 
 import {HttpService} from '../../services/http.service';
+import {Building} from '../../shared/models/building.model';
 
 @Component({
   selector: 'fx-offerings',
@@ -23,7 +24,7 @@ export class OfferingsComponent implements OnInit {
       this.mainBuilding = response[ 0 ];
       this.buildingList = response;
       this.buildingList.splice(0, 1);
-      }, ( error ) => {
+    }, ( error ) => {
       console.log('Error :: ', error);
     });
   }
